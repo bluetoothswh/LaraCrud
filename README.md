@@ -9,7 +9,7 @@
 
 ````php
 //安装
-composer require larashuo/laracrudpro
+composer require larashuo/laracrud
 
 //在config/app.php $providers中添加
 LaraShuo\LaraCrud\LaraCrudServiceProvider::class,
@@ -19,6 +19,13 @@ php artisan vendor:publish
 
 //生成数据表
 php artisan migrate
+
+//修改下config/filesystems.php
+
+        'local' => [
+            'driver' => 'local',
+            'root' => public_path('/'),
+        ],
 
 ````
 
