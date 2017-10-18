@@ -1,5 +1,6 @@
 ## LaraCrud
 <p>一个基于Laravel5.5的crud操作的package </p>
+<p>larashuo官网 《Laravel5.5入门篇视频教程》示范代码的package <p>
 <p>
  网址：
  <a href="https://larashuo.com">larashuo.com</a>
