@@ -12,7 +12,8 @@
 composer require larashuo/laracrud
 
 //在config/app.php $providers中添加
-LaraShuo\LaraCrud\LaraCrudServiceProvider::class,
+//LaraShuo\LaraCrud\LaraCrudServiceProvider::class,
+//支持laravel5.5的安装，已经不需要在手工添加$providers数组
 
 // publish
 php artisan vendor:publish 
